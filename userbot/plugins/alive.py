@@ -8,7 +8,7 @@ from telethon import version
 from platform import python_version, uname
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "leobrownlee"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "prince"
 
 @command(outgoing=True, pattern="^.alive$")
 async def amireallyalive(alive):
@@ -16,11 +16,11 @@ async def amireallyalive(alive):
     await alive.edit("**MY BOT IS RUNNING SUCCESFULLY**\n\n"
                      f"`😎Telethon version: {version.__version__}\n\n`"
                      f"`😎Python: {python_version()}\n\n`"
-                     "`😎Bot was modified by:` leobrownlee and Sur_vivor\n\n"
+                     "`😎Bot was modified by:` prince\n\n"
                      "`😎Database Status: Databases functioning normally!\n\n`"
                      "`😎Always with you, my master!\n\n`"
                      f"`😎Owner Name`:   {DEFAULTUSER}\n\n\n"
-                     "[DEPLOY FRIDAY](https://github.com/leobrownlee/FRIDAY)"
+                     "[DEPLOY PRINCE USERBOT](https://github.com/starkGang/FridayUserbot)"
                     )
 
     
